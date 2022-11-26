@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи»
 
 * Студент: [Нина Феоктистова](https://up.htmlacademy.ru/adaptive/27/user/2171389).
-* Наставник: `Неизвестно`.
+* Наставник: `Иван Верхотуров`(https://up.htmlacademy.ru/profession/frontender/15/adaptive/27/user/174385).
 
 ---
 
