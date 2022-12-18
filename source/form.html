@@ -49,17 +49,17 @@
           <ul class="form-info__list">
             <li class="form-info__item">
               <label class="form-info__label form-info__label--required" for="name_form">Имя:<sup>*</sup></label>
-              <input class="form-info__input input input--cat" type="text" name="name" id="name_form" value="БАРСИК"
+              <input class="form-info__input" type="text" name="name" id="name_form" value="БАРСИК"
                 required="">
             </li>
             <li class="form-info__item">
               <label class="form-info__label form-info__label--required" for="weight_form">Вес (кг):<sup>*</sup></label>
-              <input class="form-info__input input input--cat" type="text" name="weight" id="weight_form" value="7"
+              <input class="form-info__input" type="text" name="weight" id="weight_form" value="7"
                 required="">
             </li>
             <li class="form-info__item">
               <label class="form-info__label" for="age_form">Возраст (лет):</label>
-              <input class="form-info__input input input--cat" type="text" name="age" id="age_form" value="7">
+              <input class="form-info__input" type="text" name="age" id="age_form" value="7">
             </li>
           </ul>
         </fieldset>
@@ -67,15 +67,15 @@
           <legend class="visually-hidden">Цель программы</legend>
           <ul class="form-goal__list">
             <li class="form-goal__item">
-              <input class="form-goal__input goal-input" type="radio" name="goal" id="weight-loss" checked>
+              <input class="form-goal__radio form-goal__radio--active" type="radio" name="goal" id="weight-loss" checked>
               <label class="form-goal__label" for="weight-loss">Похудение</label>
             </li>
             <li class="form-goal__item">
-              <input class="form-goal__input goal-input" type="radio" name="goal" id="weight-gain">
+              <input class="form-goal__radio" type="radio" name="goal" id="weight-gain">
               <label class="form-goal__label" for="weight-gain">Набор массы</label>
             </li>
             <li class="form-goal__item">
-              <input class="form-goal__input goal-input" type="radio" name="goal" id="need-advise">
+              <input class="form-goal__radio" type="radio" name="goal" id="need-advise">
               <label class="form-goal__label" for="need-advise">Не знаю (нужен ваш совет)</label>
             </li>
           </ul>
@@ -85,38 +85,38 @@
           <ul class="form-info__list">
             <li class="form-info__item">
               <label class="form-info__label" for="email_form">E-mail:<sup>*</sup></label>
-              <input class="form-info__input input input--owner-cat input--email" type="email" name="email" id="email_form"
+              <input class="form-info__input form-info__input--email" type="email" name="email" id="email_form"
                 value="kuklachev@gmail.com" required="">
             </li>
             <li class="form-info__item">
               <label class="form-info__label" for="phone_form">Телефон:<sup>*</sup></label>
-              <input class="form-info__input input input--owner-cat input--tel" type="tel" name="phone" id="phone_form"
+              <input class="form-info__input form-info__input--tel" type="tel" name="phone" id="phone_form"
                 value="8 (960) 900-60-90" required="">
             </li>
           </ul>
         </fieldset>
         <fieldset class="program-selection__group form-comment">
           <legend class="form-comment__title">Комментарий</legend>
-          <textarea class="form-comment__input input input--comment" name="comment"
+          <textarea class="form-comment__input" name="comment"
             placeholder="Расскажите обо всех повадках кота"></textarea>
         </fieldset>
         <fieldset class="program-selection__group form-additional">
           <legend class="form-additional__title">Дополнительно</legend>
           <ul class="form-additional__list">
             <li class="form-additional__item">
-              <input class="form-additional__input" type="checkbox" name="additional-product" id="sweetener" checked>
+              <input class="form-additional__checkbox form-additional__checkbox--active" type="checkbox" name="additional-product" id="sweetener" checked>
               <label class="form-additional__label" for="sweetener">Сахарозаменитель</label>
             </li>
             <li class="form-additional__item">
-              <input class="form-additional__input" type="checkbox" name="additional-product" id="water">
+              <input class="form-additional__checkbox" type="checkbox" name="additional-product" id="water">
               <label class="form-additional__label" for="water">Питьевая вода</label>
             </li>
             <li class="form-additional__item">
-              <input class="form-additional__input" type="checkbox" name="additional-product" id="milk">
+              <input class="form-additional__checkbox" type="checkbox" name="additional-product" id="milk">
               <label class="form-additional__label" for="milk">Молоко</label>
             </li>
             <li class="form-additional__item">
-              <input class="form-additional__input" type="checkbox" name="additional-product" id="vitamin">
+              <input class="form-additional__checkbox" type="checkbox" name="additional-product" id="vitamin">
               <label class="form-additional__label" for="vitamin">Витамины</label>
             </li>
           </ul>
